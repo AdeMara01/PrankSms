@@ -183,7 +183,7 @@ try:
 			sleep(5)
 			headers = {
 			'User-Agent' : 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
-			'Referer' : 'https://www.alfacart.com/login?tab=daftar&return='
+			'Referer' : 'https://www.indihome.co.id/verifikasi-layanan/login-otp'
 			}
 		
 			data = {

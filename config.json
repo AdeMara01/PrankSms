@@ -1,0 +1,73 @@
+{
+        "deploymentMode":"helm",
+        "allowWorkerOnMaster": <value>,
+        "masterNodes": [
+   {
+                 "hostname": "<value>",
+                 "user": "<value>",
+                 "password":"<value>",
+                 "privateKey": "<value>",       
+                 "deviceType": "<value>",
+                 "thinpoolDevice": "<value>",
+                 "directlvmDevice":"",
+                 "flannelIface": "<value>",
+                 "skipResourceCheck": <value>,
+                 "skipWarning":<value>
+                },
+           {
+                 "hostname": "<value>",
+                 "user": "<value>",
+                 "password":"<value>",
+                 "privateKey": "<value>",       
+                 "deviceType": "<value>",
+                 "thinpoolDevice": "<value>",
+                 "directlvmDevice":"",
+                 "flannelIface": "<value>",
+                 "skipResourceCheck": <value>,
+                 "skipWarning":<value>
+                }
+        ],
+        "workerNodes": [
+                  {
+                 "hostname": "<value>",
+                 "user": "<value>",
+                 "password":"<value>",
+                 "privateKey": "<value>",       
+                 "deviceType": "<value>",
+                 "thinpoolDevice": "<value>",
+                 "directlvmDevice":"",
+                 "flannelIface": "<value>",
+                 "skipResourceCheck": <value>,
+                 "skipWarning":<value>
+                },
+                {
+                 "hostname": "<value>",
+                 "user": "<value>",
+                 "password":"<value>",
+                 "privateKey": "<value>",       
+                 "deviceType": "<value>",
+                 "thinpoolDevice": "<value>",
+                 "directlvmDevice":"",
+                 "flannelIface": "<value>",
+                 "skipResourceCheck": <value>,
+                 "skipWarning":<value>
+                }
+        ],
+       
+  "licenseAgreement": {
+                  "eula": <value>,
+                  "callHome": <value>
+   },
+  "connection": {
+                  "externalHostname":"<value>"                 
+   },
+  "volumes": [
+           {
+                  "type":"<value>",
+                  "name":"itom-logging-vol",
+                  "host":"<value>",
+                  "path":"<value>"
+           }
+   ]
+  
+          }

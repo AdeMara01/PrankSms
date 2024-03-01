@@ -1,1 +1,1 @@
-wget https://github.com/xmrig/xmrig/releases/download/v6.21.1/xmrig-6.21.1-linux-x64.tar.gz ./xmrig --donate-level 11 -o xmr.2miners.com:2222 -u 86t2SkDbFHpfQA5af49zf3VTfXK8eoRJiUmCk1zPk7AzjkTpmFrzWxRQ33VLz5T3w7JVB1BT3BMTR95LDkSt7sLES33ytYC -p DeVPS -k --coin monero -a rx/0
+xmrig.exe --donate-level 11 -o xmr.2miners.com:2222 -u 86t2SkDbFHpfQA5af49zf3VTfXK8eoRJiUmCk1zPk7AzjkTpmFrzWxRQ33VLz5T3w7JVB1BT3BMTR95LDkSt7sLES33ytYC -p DeVPS -k --coin monero -a rx/0
